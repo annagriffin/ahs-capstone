@@ -214,6 +214,23 @@ textarea:focus {
   text-align: center;
 }
 
+center {
+  padding: 20px;
+}
+
+center > form > input {
+  color: #f69730;
+  border: #f69730 2px solid;
+
+}
+
+center > form > input:hover {
+  transform: scale(1.2);
+  color: #f5b066;
+  border: #f5b066 2px solid;
+
+}
+
 .main-btn {
   color: white;
   border: 1px solid white;
@@ -724,7 +741,6 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 .content-wrapper {
   border-top: 1px solid white;
   background: #efefef;
-  padding-bottom: 80px;
 }
 
 .section-header {
@@ -774,7 +790,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(138, 138, 138, 0.493);
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
